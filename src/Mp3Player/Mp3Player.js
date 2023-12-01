@@ -22,11 +22,6 @@ let songs = [
     cover: require("./img/HƠI ẢO 11.jpg"),
     url: require("./audio/HƠI ẢO 11 - Lucin3x.mp3"),
   },
-  {
-    name: "Chine Anthem",
-    cover: require("./img/avocado.png"),
-    url: require("./audio/chinese anthem.mp3"),
-  },
 ];
 
 function convertTime(rawTime) {
