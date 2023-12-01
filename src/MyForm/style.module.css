@@ -1,0 +1,16 @@
+.textInput {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 20px;
+}
+.item {
+  margin-bottom: 15px;
+}
+
+.bottemText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}

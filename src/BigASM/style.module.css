@@ -1,0 +1,144 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #323232;
+  padding: 35px;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+.lightContainer1 {
+  width: 100%;
+  padding: 28px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #897bda;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lightContainer1 button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 12px;
+  background: #862796;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lightContainer2 {
+  padding: 30px;
+  width: 100%;
+  border-radius: 12px;
+  background: #1a1a1a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.yearSelection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yearTitle {
+  margin: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.yearSelect select {
+  padding: 15px 7px 14px 64px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.chartContainer {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: #e1cae4;
+}
+
+.chartItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 3%;
+}
+
+.chartItem p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.chartBar {
+  border-radius: 50px;
+  border: 2px solid #000;
+  background: #baa5ed;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.blueChart {
+  background-color: #3d15a9;
+  width: 100%;
+}
+
+.buyItem {
+  padding: 10px;
+  background: #575757;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+}
+
+.buyTime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex: 2;
+}
+
+.buyDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 8;
+}
